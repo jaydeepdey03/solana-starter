@@ -32,9 +32,10 @@ const PhantomWalletProvider = ({children}) => {
   useEffect(() => {
     //  set provider
     if ("phantom" in window) {
-      const provider = window.phantom?.solana;
-      console.log(provider, "context provider");
-      setGlobalProvider(provider);
+      // const provider = window.phantom?.solana;
+      // console.log(provider, "context provider");
+      // setGlobalProvider(provider);
+      console.log(window.phantom.solana);
     }
   }, [window]);
 
