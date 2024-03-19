@@ -1,5 +1,3 @@
-import CustomwalletComponent from "@/components/ui/Customwallet";
-import Wallets from "@/components/ui/Wallet";
 import {Button} from "@/components/ui/button";
 import {
   WalletDisconnectButton,
